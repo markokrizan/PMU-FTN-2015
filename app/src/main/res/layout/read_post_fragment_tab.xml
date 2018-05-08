@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_gravity="bottom"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:id="@+id/lbltitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Naslov: "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/lbldate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbltitle"
+                android:layout_centerHorizontal="true"
+                android:text="Datum: "
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imgphoto"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/lbldate" />
+
+
+            <TextView
+                android:id="@+id/lbldescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgphoto"
+                android:layout_centerHorizontal="true"
+                android:text="Opis: "
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/lblauthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbldescription"
+                android:layout_centerHorizontal="true"
+                android:text="Autor: "
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/lbllocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lblauthor"
+                android:layout_centerHorizontal="true"
+                android:text="Lokacija: "
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/lbllikes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbllocation"
+                android:layout_centerHorizontal="true"
+                android:text="Lajkova: "
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/lbldislikes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbllikes"
+                android:layout_centerHorizontal="true"
+                android:text="Dislajkova: "
+                android:textSize="15dp">
+
+            </TextView>
+
+
+            <ListView
+                android:id="@+id/listcomments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/lbldislikes">
+
+            </ListView>
+
+            <ListView
+                android:id="@+id/listtags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listcomments">
+
+            </ListView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

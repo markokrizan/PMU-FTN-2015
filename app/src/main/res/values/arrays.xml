@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- staticki nizovi dobri za ovakav scenariju, nece se menjati nikad -->
+
+    <string-array name="sortiraj">
+        <item>Datumu</item>
+        <item>Popularnosti</item>
+    </string-array>
+
+
+</resources>

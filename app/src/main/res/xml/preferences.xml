@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Ovo mora da bude custom i da poziva dialog -->
+    <!-- Samo preference -->
+    <Preference
+        android:key="filterDatuma"
+        android:title="@string/podesavanjeDatumTitle"
+        android:summary="@string/podesavanjeDatumSummary"
+        android:defaultValue="true" />
+
+    <!-- pod ovim key se cuva vrednost u shared preferneces storage -->
+    <!-- entries ono sto korisnik vidi entryValues ono sto je iza kao podatak -->
+    <ListPreference
+        android:id="@+id/sortirajObjave"
+        android:key="lpSortPostsBy"
+        android:title="@string/sortiranjePostTitle"
+        android:summary="@string/sortirajePostSummary"
+        android:entries="@array/sortiraj"
+        android:entryValues="@array/sortiraj"
+        android:defaultValue="Datumu" />
+
+    <ListPreference
+        android:id="@+id/sortirajKomentare"
+        android:key="lpSortCommentsBy"
+        android:title="@string/sortiranjeKomentarTitle"
+        android:summary="@string/sortiranjeKomentarSummary"
+        android:entries="@array/sortiraj"
+        android:entryValues="@array/sortiraj"
+        android:defaultValue="Datumu" />
+
+
+</PreferenceScreen>

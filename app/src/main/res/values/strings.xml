@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Projekat</string>
+
+    <!--PODESAVANJA-->
+    <string name="podesavanjeDatumTitle">Datum</string>
+    <string name="podesavanjeDatumSummary">Datum od kog se objave prikazuju</string>
+
+    <string name="sortiranjePostTitle">Sortiraj objave po</string>
+    <string name="sortirajePostSummary">Izaberi kriterijum sortiranja objava</string>
+
+    <string name="sortiranjeKomentarTitle">Sortiraj komentare po</string>
+    <string name="sortiranjeKomentarSummary">Izaberi kriterijum sortiranja objava</string>
+
+    <!-- NAV drawer create posts -->
+
+    <string name = "cpnavprikazi">Prikazi objave</string>
+    <string name = "cpnavobjavi">Dodaj objavu</string>
+    <string name = "cpnavsettings">Podesavanja</string>
+
+    <!-- toolbar create posts -->
+
+    <string name = "cptoolpotvrdi">Potvrdi</string>
+    <string name = "cptoolodustani">Odustani</string>
+
+    <!-- read posts tabs, menu -->
+
+    <string name = "rptabobjava">Objava</string>
+    <string name = "rptabkomentari">Komentari</string>
+    <string name = "rpmenuitem">Obrisi objavu</string>
+
+    <!-- post menu -->
+
+    <string name = "pmenuitem">Objavi</string>
+
+
+
+</resources>
